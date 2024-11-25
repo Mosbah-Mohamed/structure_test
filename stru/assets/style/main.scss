@@ -1,0 +1,193 @@
+@import "primeicons/primeicons.css";
+// @import './base/typography';
+// @import './abstracts/variables';
+
+// @font-face {
+//     font-family: "OpenSans";
+//     src: url('~/assets/fonts/en/OpenSans-Light.ttf');
+//     font-weight: lighter;
+// }
+
+// @font-face {
+//     font-family: "OpenSans";
+//     src: url('~/assets/fonts/en/OpenSans-Regular.ttf');
+//     font-weight: 400;
+// }
+
+// @font-face {
+//     font-family: "OpenSans";
+//     src: url('~/assets/fonts/en/OpenSans-Medium.ttf');
+//     font-weight: 500;
+// }
+
+// @font-face {
+//     font-family: "OpenSans";
+//     src: url('~/assets/fonts/en/OpenSans-SemiBold.ttf');
+//     font-weight: 600
+// }
+
+// @font-face {
+//     font-family: "OpenSans";
+//     src: url('~/assets/fonts/en/OpenSans-Bold.ttf');
+//     font-weight: 700;
+// }
+
+// // End:: Define English Font Faces
+
+// // Start:: Define Arabic Font Faces
+// @font-face {
+//     font-family: "Cairo";
+//     src: url('~/assets/fonts/ar/Cairo-Regular.ttf');
+//     font-weight: 400;
+// }
+
+// @font-face {
+//     font-family: "Cairo";
+//     src: url('~/assets/fonts/ar/Cairo-Medium.ttf');
+//     font-weight: 500;
+// }
+
+// @font-face {
+//     font-family: "Cairo";
+//     src: url('~/assets/fonts/ar/Cairo-SemiBold.ttf');
+//     font-weight: 600
+// }
+
+// @font-face {
+//     font-family: "Cairo";
+//     src: url('~/assets/fonts/ar/Cairo-Bold.ttf');
+//     font-weight: 700;
+// }
+
+// @font-face {
+//     font-family: "Cairo";
+//     src: url('~/assets/fonts/ar/Cairo-ExtraBold.ttf');
+//     font-weight: 900;
+// }
+
+// // End:: Define Arabic Font Faces
+
+// body {
+//     font-family: "OpenSans";
+// }
+
+// body[dir=rtl] {
+//     font-family: "Cairo";
+
+// }
+
+// // Global Classes
+// .main_page_title {
+//     @apply font-bold text-secondary lg:text-[40px] text-[20px];
+//     line-height: 1.4;
+//     margin-bottom: 30px;
+// }
+// .main_title {
+//     font-size: 27px;
+//     @apply font-bold text-secondary;
+//     line-height: 1.4;
+// }
+// .base_button {
+//     font-size: 17px;
+//     min-width: 110px;
+//     text-align: center;
+//     padding: 8px 30px;
+//     border-radius: 5px !important;
+//     transition: 0.3s all linear;
+//     border: 1.6px solid;
+//     @apply bg-primary text-white border-primary font-normal;
+
+//     &:hover {
+//         @apply bg-white text-primary;
+//     }
+// }
+// .reverse_base_button {
+//     font-size: 17px;
+//     min-width: 110px;
+//     text-align: center;
+//     padding: 8px 30px;
+//     border-radius: 5px !important;
+//     transition: 0.3s all linear;
+//     border: 1.6px solid;
+//     @apply text-primary bg-white border-primary font-normal;
+
+//     &:hover {
+//         @apply bg-white text-primary;
+//     }
+// }
+// .secondary_button {
+//     font-size: 17px;
+//     min-width: 110px;
+//     text-align: center;
+//     padding: 8px 30px;
+//     border-radius: 5px !important;
+//     transition: 0.3s all linear;
+//     border: 1.6px solid;
+//     @apply bg-secondary text-white border-secondary font-normal;
+
+//     &:hover {
+//         @apply bg-white text-secondary;
+//     }
+// }
+// .close_button {
+//     font-size: 17px;
+//     min-width: 110px;
+//     text-align: center;
+//     padding: 8px 30px;
+//     border-radius: 5px !important;
+//     transition: 0.3s all linear;
+//     border: 1.6px solid;
+//     @apply border-customRed text-customRed bg-white  font-normal;
+
+//     &:hover {
+//         @apply bg-customRed text-white;
+//     }
+// }
+// #app_wrapper {
+//     padding-top: 140px;
+// }
+
+// @media(max-width:768px) {
+//     .container {
+//         // padding-inline: 1rem;
+//     }
+// }
+
+// .container {
+//     max-width: 1280px;
+//     margin-inline:auto;
+//     @apply px-[12px];
+// }
+
+// .p-rating .p-rating-item .p-rating-icon {
+//     color: #FEC90C !important;
+// }
+
+// .p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+//     color: #FEC90C !important;
+// }
+// .login_page{
+//     @apply flex flex-col justify-center items-center;
+//     padding: 40px;
+//     h3{
+//         @apply text-secondary font-bold ;
+//         font-size: 30px;
+//         margin-block: 30px ;
+//     }
+// }
+// // Reset Inputs Styling
+// .p-inputtext:enabled:hover {
+//     @apply border-primary ;
+
+// }
+// .p-inputtext{
+//     min-width:280px ;
+// }
+// .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+//     @apply bg-primary;
+// }
+// .text_area_wrapper{
+//     .p-inputtext {
+//         @apply  rounded-[10] text-grayDark bg-white   border-[1px] overflow-hidden my-[0px] w-[100%] ;
+//     }
+// }

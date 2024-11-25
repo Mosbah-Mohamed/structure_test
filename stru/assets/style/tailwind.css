@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* For base styles that apply globally to your HTML elements */
+@tailwind base;
+/* For reusable components like buttons, cards, etc */
+@tailwind components;
+/*  For custom utilities like spacing or custom colors */
+@tailwind utilities;
+/* @apply directive allows you to use Tailwind’s utility classes inside your custom */
+/* @layer components Section If you want to create a global class with custom styles (for example, a custom .btn class) */
+@layer components {
+  /* Custom button class */
+  .btn {
+    @apply py-2 px-4 rounded-lg text-white font-semibold;
+    background-color: #1fb6ff; /* Tailwind's custom blue color */
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #0077b5; /* Darker blue on hover */
+  }
+}
+/* @layer utilities If you want to create a global utility class (e.g., a utility for adding custom margins or padding */
+@layer utilities {
+  .custom-margin {
+    margin: 20px;
+  }
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
+@layer base {
+  h1 {
+    @apply text-3xl font-bold text-primary; /* Custom styles using Tailwind's utility classes */
+    color: #1fb6ff; /* Custom color */
+  }
+}
+body {
+  font-family: "Noto Kufi Arabic", sans-serif;
+}/*# sourceMappingURL=tailwind.css.map */

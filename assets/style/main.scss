@@ -1,0 +1,31 @@
+// =================== start call sass pages ===================
+
+@import "./Globals/components/_variables.scss";
+
+@import "./Globals/components/_mixins.scss";
+
+@import "./Globals/components/_global.scss";
+
+// @import "./Global/layout/_style-en.scss";
+
+// =================== start layouts ===================
+
+@import "./Globals/layouts/_globalPages.scss";
+
+// =================== end layouts ===================
+
+// =================== start pages ===================
+
+// @import "./Global/pages/home";
+
+// =================== start pages ===================
+
+//  =================== global pages ===================
+
+// @import "./Global/pages/errorpage";
+
+@import "./Globals/layouts/_media.scss";
+
+//  =================== global pages ===================
+
+// =================== end call sass pages ===================
